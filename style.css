@@ -9,7 +9,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   height: auto;
-  width: 400px;
+  width: 90%;
   border-radius: 5px;
   box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
 }
@@ -111,4 +111,17 @@ ul li a {
 }
 ul li a:hover {
   color: #fabed3;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .todo-container {
+    background-color: #394048;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  }
 }
