@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e65b8b;
+  text-align: center;
+}
+.todo-container {
+  background-color: #394048;
+  display: inline-block;
+  vertical-align: middle;
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+/*head section */
+.head {
+  padding: 0.5rem;
+  border-bottom: 1.5px solid #31373e;
+}
+.head span {
+  color: grey;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.active {
+  color: white !important;
+  border-bottom: 1.5px solid #e65b8b;
+}
+
+.title {
+  color: white;
+  margin-top: 1rem;
+}
+/*form section */
+form {
+  margin-top: 10%;
+}
+.add-task {
+  background-color: #31373e;
+  height: 25px;
+  width: 15rem;
+  border: 1px solid #31373e;
+  border-radius: 5px;
+  padding-left: 1rem;
+  color: white;
+}
+.page-reset {
+  border-radius: 5px;
+  border: 1px solid #31373e;
+  background-color: yellow;
+  color: #31373e;
+}
+/*todos section - form*/
+.todos {
+  color: white;
+  margin-top: 1.5rem;
+}
+.todo-items {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.todo-item {
+  margin-bottom: 16%;
+  padding: 0 0.1rem 0 0.1rem;
+}
+.checkbox {
+  appearance: none;
+  background-color: #394048 !important;
+  color: #394048;
+}
+select {
+  background-color: #31373e;
+  border: 1px solid #31373e;
+  color: white;
+}
+select option:hover {
+  appearance: none;
+  color: #e65b8b;
+}
+.task-reset {
+  border-radius: 5px;
+  border: 1px solid #31373e;
+  background-color: yellow;
+  color: #31373e;
+}
+
+/*todos section - todo-list*/
+li {
+  text-align: left;
+  padding-top: 0.5rem;
+}
+span button {
+  margin-right: 1rem;
+  background-color: #31373e;
+  border: 1px solid #171a1d;
+  border-radius: 5px;
+  color: white;
+}
+.undone {
+  color: red;
+}
+.done {
+  color: green;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover {
+  color: #fabed3;
+}

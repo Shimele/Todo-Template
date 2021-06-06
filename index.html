@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="todo-container">
+      <section class="head">
+        <span class="active">Day</span>
+        <span>Week</span>
+        <span>Month</span>
+        <span>Year</span>
+      </section>
+      <div class="title">My Todo List</div>
+      <form>
+        <input class="add-task" type="text" placeholder="Add task" />
+        <button class="page-reset">Reset</button>
+      </form>
+      <section class="todos">
+        <div class="todo-items">
+          <div class="todo-item">
+            <form>
+              <input
+                class="checkbox"
+                type="checkbox"
+                id="item1"
+                name="item1"
+                value="react"
+              />
+              <label for="item1">My React project task of the month</label>
+              <select name="item1" id="item1">
+                <option>---</option>
+                <option value="todo">Build React todo</option>
+                <option value="calc">Build calculator</option>
+                <option value="photo">Photo commerce</option>
+                <option value="game">Speed typing game</option>
+              </select>
+              <button class="task-reset">Reset</button>
+            </form>
+          </div>
+          <div class="todo-list">
+            <ul>
+              <li>
+                <a href="details.html">Communication - 24th Dec 2021</a>
+                <span>
+                  <button>Done/undone</button>
+                  <i class="fas fa-times undone"></i>
+                </span>
+              </li>
+              <li>
+                <a href="#">Technology - 24th Dec 2021</a>
+                <span>
+                  <button>Done/undone</button>
+                  <i class="fas fa-check done"></i>
+                </span>
+              </li>
+              <li>
+                <a href="#">Technology - 24th Dec 2021</a>
+                <span>
+                  <button>Done/undone</button>
+                  <i class="fas fa-times undone"></i>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
